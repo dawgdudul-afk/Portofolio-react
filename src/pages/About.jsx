@@ -1,0 +1,17 @@
+function About() {
+    return (
+        <section className="about">
+        <h2>Tentang Saya</h2>
+         <img src={`${import.meta.env.BASE_URL}images/default.jpg`}/>
+        <p>Nama: Salsa Arselia</p>
+        <p>Sekolah: SMK PUSDIKHUBAD CIMAHI</p>
+        <p>Kompetensi Keahlian: Rekayasa Perangkat Lunak</p>
+        <p>
+        Saya tertarik pada pengembangan web front-end dan sedang belajar
+        React.js untuk membangun aplikasi yang interaktif.
+        </p>
+        </section>
+    );
+}
+
+export default About;
