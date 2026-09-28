@@ -2,8 +2,8 @@ function About() {
     return (
         <section className="about">
         <h2>Tentang Saya</h2>
-         <img src={`${import.meta.env.BASE_URL}images/default.jpg`}/>
-        <p>Nama: Salsa Arselia</p>
+        <img src={`${import.meta.env.BASE_URL}image/default.jpg`} alt="Foto Profil" className="profile-photo" />
+        <p>Nama: Fahmi Maulana</p>
         <p>Sekolah: SMK PUSDIKHUBAD CIMAHI</p>
         <p>Kompetensi Keahlian: Rekayasa Perangkat Lunak</p>
         <p>

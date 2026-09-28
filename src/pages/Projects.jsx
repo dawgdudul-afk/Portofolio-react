@@ -3,29 +3,38 @@ import ProjectCard from "../component/ProjectCard";
 const projects = [
     {
         id: 1,
-        title: "Website Portofolio Pribadi",
-        desc: "Aplikasi SPA yang menampilkan profil, daftar proyek, dan formulir kontak.",
-        image: "/image/project-portofolio.png",
-        tech: ["React", "React Router", "CSS"],
-        githubUrl: "https://github.com/username/portofolio-react",
-        demoUrl: "https://portofolio-saya.vercel.app",
+        title: "Aplikasi Pencatat Uang Harian",
+        desc: "Aplikasi yang menghitung pemasukan dan pengeluaran kita.",
+        image: `${import.meta.env.BASE_URL}image/ssuang.png`,
+        tech: ["HTML", "JAVASCRIPT", "CSS"],
+        githubUrl: "https://github.com/hanzo-spec/Expense-Tracker",
+        demoUrl: "https://uanghan.netlify.app",
     },
 {
     id: 2,
-    title: "Lost And Found",
-    desc: "Aplikasi Untuk Menemukan Barang Yang Hilang.",
-    image: `${import.meta.env.BASE_URL}/image/project.jpg`,
-    tech: ["React", "useState", "localStorage"],
-    githubUrl: "https://github.com/slsar769-create/sistem-lost-found",
-    demoUrl: "none",
-}
+    title: "Aplikasi Catatan Sederhana",
+    desc: "Aplikasi pencatat tugas harian.",
+    image: `${import.meta.env.BASE_URL}image/sslist.png`,
+    tech: ["HTML", "JAVASCRIPT", "CSS"],
+    githubUrl: "https://github.com/hanzo-spec/Proyek-To-Do-List",
+    demoUrl: "https://tdlhan.netlify.app/",
+},
+{
+    id: 3,
+    title: "Aplikasi Kasir Toko Sederhana",
+    desc: "Aplikasi untuk mengelelola proses transaksi jual beli.",
+    image: `${import.meta.env.BASE_URL}image/sstoko.png`,
+    tech: ["HTML", "JAVASCRIPT", "CSS"],
+    githubUrl: "https://github.com/hanzo-spec/Kasir-Toko-Sederhana",
+    demoUrl: "https://kasirhan.netlify.app/",
+},
 ];
 
 function Projects() {
     return (
         <section className="projects">
         <h2>Proyek Saya</h2>
-        <div className="projects-grid">
+        <div className="project-grid">
         {projects.map((p) => (
             <ProjectCard key={p.id} {...p} />
         ))}

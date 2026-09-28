@@ -10,7 +10,7 @@ body {
     background-color: #f9fafb;
 }
 
-/* Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@ body {
     font-weight: bold;
 }
 
-/* Hero Section */
+
 .hero {
     text-align: center;
     padding: 60px 20px;
@@ -55,18 +55,17 @@ body {
     font-size: 2.5rem;
 }
 
-/* CSS untuk Foto Profil agar Bulat */
+
 .profile-photo {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 50%; /* Membuat foto menjadi bulat sempurna */
+    border-radius: 50%;
     border: 4px solid #ffffff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
 
-/* Skills Grid */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat (3, 1fr);
@@ -131,7 +130,7 @@ body {
 @media (max-width: 480px) {
     .skills-grid { grid-template-columns: 1fr; }
 }
-/* Dropdown User */
+
 .user-dropdown { position: relative; }
 .user-dropdown-toggle {
     background: none;
@@ -162,7 +161,7 @@ body {
 }
 .user-dropdown-menu li button:hover { background: #eaf1fb; }
 
-/* Grid dan Kartu Proyek */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -186,7 +185,7 @@ body {
 }
 .project-links { display: flex; gap: 16px; }
 
-/* Halaman Login */
+
 .login form { display: flex; flex-direction: column; gap: 12px; max-width: 400px; margin: 40px auto; }
 .login input {
     padding: 8px;
@@ -194,7 +193,7 @@ body {
     border-radius: 4px;
 }
 
-/* Responsif Kartu Proyek */
 @media (max-width: 768px) {
     .projects-grid { grid-template-columns: 1fr; }
 }
+

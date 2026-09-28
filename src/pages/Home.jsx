@@ -11,7 +11,7 @@ function Home() {
     return (
         <div>
         <Hero
-        title="Halo, Saya Salsa Arselia"
+        title="Halo, Saya Fahmi Maulana"
         subtitle="Siswa RPL yang belajar membangun aplikasi web dengan React."
         />
         <section className="skills-grid">

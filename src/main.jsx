@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext.jsx";
 import App from "./App.jsx";
-import "./assets/styles.css"; // <-- BARIS INI WAJIB ADA AGAR CSS MUNCUL
+import "./assets/styles.css";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
